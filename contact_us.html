@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <a href="Index.html">Home Us</a> 
+    <a href="about_us.html">About Us</a>
+    <a href="contact_us.html">Contact Us</a>
+    <h1>Contact Us</h1>
+    <hr/>
+    <!-- How to Use TABLES in HTML -->
+    <h2>Locations</h2>
+
+    <table>
+        <!-- this is for Table Heading-th  -->
+        <tr>
+             <th>Location</th>
+             <th>Opening Hours</th>
+             <th>Email Address</th>
+             <th>Phone Number</th>
+        </tr>
+        <!-- this is for Table Data-td -->
+        <tr>
+            <td>Hyderabad</td>
+            <td>9AM-5PM</td>
+            <td>abc123@ok.com</td>
+            <td>9123467890</td>
+        </tr>
+
+        <tr>
+            <td>KADAPA</td>
+            <td>9AM-5PM</td>
+            <td>kdp123@ok.com</td>
+            <td>9123467390</td>
+        </tr>
+        <tr>
+            <td>Kurnool</td>
+            <td>9AM-5PM</td>
+            <td>krn123@ok.com</td>
+            <td>9124467890</td>
+        </tr>
+
+    </table>
+
+    <h2>Personal Information</h2>
+    <form action="confirmation.html">
+        <label for="Fullname" >Name *</label><br>
+        <input required type="text" id="Fullname" name="Fullname">
+        <br>
+        <label for="email" >Email Address *</label><br>
+        <input  required type="email" id="email" name="EmailAddress">
+<br>
+<br>        <label >Are you Employed?*</label><br>
+        <input required type="radio" value="Y" name="Employed">Yes
+        <input required type="radio" value="N" name="Employed">No
+<br>
+        <label for="inquiry">State Of inquiry*</label><br>
+        <textarea  required cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry" ></textarea>
+<br>
+        <input type="submit">
+
+    </form>
+    <p>hai , i am Contact Us page</p>
+</body>
+</html>
