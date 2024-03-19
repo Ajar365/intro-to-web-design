@@ -19,18 +19,39 @@
             <h1>Animal Preservation Centre-India</h1>
          <h2>Preservation Success story</h2>
          <iframe width="560" height="315" src="https://www.youtube.com/embed/jOUPAMyOPl0?si=aXnQKnAKOB-me_nE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-               
-            
+       <br>
+         <br>
+         <br>
+
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <h2>gugdsugsjgkue</h2>
+
+            <button id="jqueryBtn">Hide p Tags-JQuery</button>
+            <button onclick="hidePTags()">Hide ptags-Javascript</button>
                         
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <h2>gugdsugsjgkue</h2>
+           
 <footer>
 <a href="https://www.amazon.com" target="blank">amazon</a>
 <a href="https://www.amazon.com" target="blank">amazon</a>
 <a href="https://www.amazon.com" target="blank">amazon</a>
 </footer>  
+<script src="JavaScript/jquery.min.js"></script>
+<script src="JavaScript/site.js"></script>
 
+<script>
+function hidePTags(){
+    let ptags=document.getElementsByTagName('p');
+    for(let item of ptags){
+        // item.style.visibility='hidden';//remove element ,and leeves spaces 
+        item.style.display='none';  //remove element and spaves 
+    }}
+   
+    $('#jqueryBtn').click(function(){
+        $('p').hide();
+    })
+    
+</script>
 </body>
    
 </html>

@@ -73,7 +73,8 @@
         <label for="inquiry">State Of inquiry*</label><br>
         <textarea  required cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry" ></textarea>
 <br>
-        <input type="submit">
+        <input type="submit" />
+        <button type="button" onclick="ClearForm()">Clear</button>
 
     </form>
     <p>hai , i am Contact Us page</p>
@@ -86,8 +87,15 @@
         <a href="https://www.amazon.com" target="blank">amazon</a>
         <a href="https://www.amazon.com" target="blank">amazon</a>
     </footer>  
-        
-    
+        <!-- JavaScript internal embedded here -->
+    <!-- <script>
+        function ClearForm(){
+            alert("You are clicked clear")
+        }
+    </script> -->
+    <!-- JavaScript external embedded here -->
+    <script src="JavaScript/jquery.min.js">   </script>
+    <script src="JavaScript/site.js">   </script>
     
 </body>
 </html>
