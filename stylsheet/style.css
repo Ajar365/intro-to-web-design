@@ -51,3 +51,32 @@ article{
   .accordion-button.collapsed::after {
     content: '-';
   } */
+
+/* this is for character count to appear below the textarea on the right side
+if we need left side just comment below code 
+if you need top right jusst change bottom to top and set margin-bottom as you need or expected*/
+  .mb-3 {
+    position: relative;
+}
+
+.position {
+    position: absolute;
+}
+
+.position {
+    bottom: 0;
+    /* top: 0; this is for to get charterscount possition at top right */
+}
+
+.position{
+    right: 0;
+}
+
+.position {
+    margin-bottom: -1.5rem;
+    /* margin-top: 0.5rem;  this is for to get charterscount at top right*/
+}
+
+.position {
+    margin-right: 0.5rem;
+}
