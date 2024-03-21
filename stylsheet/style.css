@@ -43,11 +43,11 @@ article{
     height: auto;
 }
 
-.accordion-button::after {
+/* .accordion-button::after {
     content: '+';
     float: right;
   }
 
   .accordion-button.collapsed::after {
     content: '-';
-  }
+  } */
